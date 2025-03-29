@@ -1,0 +1,14 @@
+.editor {
+  width: 100%;
+  height: 100%;
+  scrollbar-color: rgb(117, 176, 205) rgb(232, 232, 232);
+  scrollbar-width: thin;
+  outline: none;
+  border: none;
+  resize: none;
+  background-color: rgba(134, 207, 243, 0.422);
+
+  :active {
+    outline: none;
+  }
+}

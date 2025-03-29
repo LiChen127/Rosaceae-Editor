@@ -1,4 +1,5 @@
 // import { useState } from 'react';
+import styles from '../assets/css/MarkdownEditor.module.css';
 
 interface MarkdownEditorProps {
   value: string;
@@ -10,7 +11,7 @@ const MarkdownEditor: React.FC<MarkdownEditorProps> = ({ value, onChange }) => {
     <textarea
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      className="w-full h-full p-4 border border-gray-300 rounded-md resize-none"
+      className={`${styles.editor}`}
     />
   );
 };
